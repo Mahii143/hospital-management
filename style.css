@@ -7,7 +7,6 @@
 
 main {
     width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,7 +15,7 @@ main {
 
 .info-container {
     width: 75%;
-    height: 60%;
+    height: 25rem;
     margin: 1rem 0;
     display: flex;
     align-items: center;
@@ -179,3 +178,13 @@ td {
 }
 
 /** Table ends **/
+
+
+.med-btn {
+    border:1px solid #015288;
+    background-color: #2980b9;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    box-shadow: 0 0 5px 0 black;
+}
