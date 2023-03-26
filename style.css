@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* 
 main {
     width: 100vw;
     display: flex;
@@ -76,7 +76,7 @@ td {
 .info-table-container table thead tr th,
 .info-table-container table tbody tr td {
     padding: 1rem 1.37rem;
-}
+} */
 
 /** Table starts**/
 
