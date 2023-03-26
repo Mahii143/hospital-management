@@ -4,82 +4,54 @@
     box-sizing: border-box;
 }
 
-/* 
-main {
+
+/* dashboard starts*/
+
+
+body {
+    height: 100vh;
     width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    'toph toph toph toph toph toph'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    'sideh mainh mainh mainh mainh mainh'
+    ;
+}
+
+.top-header {
+    grid-area: toph;
+    /* height: 20%; */
+}
+.side-header {
+    grid-area: sideh;
+}
+.main {
+    grid-area: mainh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
 }
-
-.info-container {
-    width: 75%;
-    height: 25rem;
-    margin: 1rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    border: 1px solid #aaaaaa;
-    box-shadow: 0 0 5px 0 #000000;
+body > div {
+    border: 1px solid black;
 }
 
-.info-container .img-container {
-    width: 30%;
-    height: 50%;
-}
+/* dashboard ends*/
 
-.info-container .img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
-.info-container .info-details {
-    height: 50%;
-    width: 70%;
-    padding: 1rem;
-    display: flex;
-}
-
-.info-container .info-details {
-    background-color: #e5e3e3;
-}
-
-.info-container .details-container {
-    width: 100%;
-    height: 50%;
-    background-color: #e5e3e3;
-    border-top: 2px solid #aaa;
-    padding: 1rem;
-    display: flex;
-}
-
-.info-table-container table tbody tr td,
-.info-table-container table thead tr th {
-    border: 1px solid gray;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-th {
-    text-align: right;
-}
-
-td {
-    text-align: center;
-}
-
-.info-table-container table thead tr th,
-.info-table-container table tbody tr td {
-    padding: 1rem 1.37rem;
-} */
 
 /** Table starts**/
-
 
 @media screen and (max-width: 580px) {
     body {
@@ -95,9 +67,8 @@ td {
 }
 
 .table {
-    margin: 0 0 40px 0;
-    width: 100%;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 1);
     display: table;
 }
 
@@ -164,7 +135,6 @@ td {
 
 .cell {
     padding: 6px 12px;
-    max-width: 15rem;
     max-height: 2rem;
     overflow: auto;
     display: table-cell;
