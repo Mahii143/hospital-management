@@ -29,16 +29,35 @@ body {
         'sideh mainh mainh mainh mainh mainh'
         'sideh mainh mainh mainh mainh mainh'
         'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
+        'sideh mainh mainh mainh mainh mainh'
     ;
 }
 
 .top-header {
     grid-area: toph;
-    height: max-content;
+    /* height: max-content; */
+    border-bottom: 1px solid #14537d;
+    box-shadow: 0 0 5px 0 black;
 }
 
 .side-header {
     grid-area: sideh;
+    background-color: #2980b9;
 }
 
 .main {
@@ -166,11 +185,11 @@ body {
 /* header starts */
 
 .top-header {
-    position: sticky;
-    background-color: aquamarine;
+    background-color: #2980b9;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1rem 1rem 1rem;
 }
 
 #pro-des {
@@ -235,13 +254,97 @@ a {
 }
 
 button {
-    margin-top: 2vh;
     width: 7vw;
     height: 5vh;
+    background-color: #e9e9e9;
     color: black;
     margin-right: 2vh;
-    border-radius: 2vw;
-    border: 1px solid black;
+    border: none;
 }
 
 /* header ends */
+
+/* side nav bar :start */
+
+.side-cont {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    background-color: #2980b9;
+    /* font: 1em sans-serif; */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.side-cont>div {
+    padding: 0.6rem 0.2rem;
+    width: 100%;
+    font-size: large;
+    letter-spacing: 0.2rem;
+    /* border-bottom: 1px solid black; */
+}
+
+.side-cont>div:hover {
+    background-color: white;
+    color: #2980b9;
+    cursor: pointer;
+}
+
+/* side nav bar ends */
+
+
+
+/* button starts */
+
+
+/* CSS */
+.button-29 {
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.button-29:focus {
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.button-29:active {
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/* button ends */
