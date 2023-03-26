@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
-
 <body>
-
     <div class="top-header">
         <div class="logo-content">
             <img src="./logo-removebg-preview.png" style="background-color: white;" width="60px" height="50px"
@@ -41,54 +38,24 @@
             </a>
         </div>
     </div>
+
     <div class="main">
-        <!-- main -->
-        <div class="table">
+        <form class="form-container">
+            <h1>Tell us what's happening to you?</h1>
+            <input type="text" name="dtitle" id="dtitle" placeholder="Appointment for?">
 
-            <div class="row header blue">
-                <div class="cell">
-                    MrID
-                </div>
-                <div class="cell">
-                    Disease
-                </div>
-                <div class="cell">
-                    Diagonised Time
-                </div>
-                <div class="cell">
-                    Status
-                </div>
-                <div class="cell">
-                    Details
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="cell" data-title="mrid">
-                    101
-                </div>
-
-                <div class="cell" data-title="dname">
-                    Good boy
-                </div>
-
-                <div class="cell" data-title="dtime">
-                    21-03-2023
-                </div>
-
-                <div class="cell" data-title="status">
-                    Pending
-                </div>
-                <div class="cell" data-title="details">
-                    <a href="des.html">View More</a>
-                </div>
-            </div>
-
-
-
-        </div>
+            <input type="text" name="symptoms?" id="symptoms?" placeholder="Symptoms">
+            
+            <input type="text" name="How Long?" id="How Long?" placeholder="How long?">
+            
+            <!-- <input type="text" name="descp" id="descp" > -->
+            <textarea name="descp" id="descp"placeholder="Briefly Describe the Problem"></textarea>
+            <input type="text" name="sev" id="sev" placeholder="Severity">
+            
+            <input type="submit" value="submit" class="button-29 btn" role="button">
+        </form>
     </div>
 
-</body>
 
+</body>
 </html>
