@@ -1,0 +1,142 @@
+
+/* doctor view main starts */
+
+.main {
+    display: block;
+}
+
+.pat-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+
+.stu-des{
+    /* position: relative; */
+
+    border: 1px solid black;
+    box-shadow: rgba(123, 20, 202, 0.4) 5px 5px, rgba(123, 20, 202, 0.3) 10px 10px, rgba(123, 20, 202, 0.2) 15px 15px, rgba(123, 20, 202, 0.1) 20px 20px, rgba(123, 20, 202, 0.05) 25px 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 5%;
+    width: 40%;
+    height: 50%;
+    /* float: left; */
+    padding-left: 0.7rem;
+    gap: 0.8rem;
+    padding-bottom: 4%;
+
+}
+.img-icon{
+    text-align: center;
+    padding-top: 1rem;
+    /* padding-bottom: 0.5rem; */
+
+}
+.m-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 5%;
+    /* gap: 1rem; */
+}
+.m-cont .value{
+    /* float: right; */
+    font-weight: bold;
+}
+.stu-des i.fa , .doc-pres i.fa{
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 0 0 2px #888;
+    gap: 0rem;
+    /* padding: 0.5em 0.6em; */
+  
+}
+
+.stu-des .name , .dis-des .name , .doc-pres .name{
+    text-align: center;
+    font-weight: bold;
+
+}
+.stu-des .email{
+    text-align: center;
+    font-size: small;
+    /* font-weight: bold; */
+
+}
+.stu-des .details , .dis-des .details{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid grey;
+    width: 95%;
+}
+
+.dis-des{
+    /* position: relative; */
+    border: 1px solid black;
+    box-shadow: rgba(123, 20, 202, 0.4) -5px 5px, rgba(123, 20, 202, 0.3) -10px 10px, rgba(123, 20, 202, 0.2) -15px 15px, rgba(123, 20, 202, 0.1) -20px 20px, rgba(123, 20, 202, 0.05) -25px 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    width: 40%;
+    height: 50%;
+    /* float: left; */
+    padding-left: 0.7rem;
+    gap: 0.8rem;
+    padding-bottom: 2%;
+}
+.dis-des i.fa {
+    font-size: 2rem;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 0 0 2px #888;
+    gap: 0rem;
+    /* padding: 0.5em 0.6em; */
+  
+}
+
+.doc-pres-cont{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.doc-pres{
+    /* position: relative; */
+    border: 1px solid black;
+    /* box-shadow:; */
+    box-shadow:  rgba(123, 20, 202, 0.4) 0px 5px, rgba(123, 20, 202, 0.3) 0px 10px, rgba(123, 20, 202, 0.2) 0px 15px, rgba(123, 20, 202, 0.1) 0px 20px, rgba(123, 20, 202, 0.05) 0px 25px;
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 5%;
+    width: 80%;
+    height: 30%;
+    float: left;
+    padding-left: 0.7rem;
+    gap: 0.8rem;
+}
+form{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.doc-pres textarea{
+    all: unset;
+    border: 1px solid black;
+    margin-right: 3%;
+    width: 80%;
+    /* padding-bottom: 5%;
+    margin-bottom: 5%; */
+
+    /* content-ed */
+}
+
+
+/* doctor view main ends */

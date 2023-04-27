@@ -1,0 +1,48 @@
+.profile-cont{
+    display: flex;
+    width: 70vw;
+    height: 90vh;
+    }
+    .right{
+      color: rgb(34, 29, 29);
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .left,.doctor{
+        width: 30vw;
+        height: 79.5vh;
+        border: 1px solid black;
+    }
+    .right{
+        width:30vw;
+        height: 80vh;
+        color: white;
+        background-color: rgb(59, 56, 56);
+    }
+    .spec{
+        width: 8vw;
+        height: 4vh;
+        /* padding-top: 5vh; */
+        background-color:aqua;
+        border-radius: 7px;
+    }
+    .spec:hover{
+        background-color: blue;
+    }
+    .name{
+        margin-left: 10vh;
+    }
+    .head{
+        margin-left: 5vh;
+        font-size: medium;
+        color: aquamarine;
+    }
+    .content{
+        margin-left: 10vh;
+        margin-top: -1vh;
+        font-size: small;
+    }
+    .content button{
+        margin-top: 2vh;
+    }

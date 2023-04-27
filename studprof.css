@@ -1,0 +1,33 @@
+.profile-cont{
+    display: flex;
+    width: 60vw;
+    height: 90vh;
+}
+   
+    .left,.doctor{
+        width: 25vw;
+        height: 74.5vh;
+        border: 1px solid black;
+    }
+    .right{
+        padding-left: 2vw;
+        width:25vw;
+        height: 75vh;
+        color: white;
+        background-color: rgb(59, 56, 56);
+    }
+    .name{
+        margin-left: 10vh;
+        margin-top: 2vh;
+    }
+    .head{
+        margin-top: 2vh;
+        font-size: medium;
+        margin-left: 5vh;
+        color: aquamarine;
+    }
+    .content{
+        margin-top: 2vh;
+        margin-left: 10vh;
+        font-size: medium;
+    }
